@@ -1,0 +1,21 @@
+<div class="w-full">
+  <% if notice.present? %>
+    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+  <% end %>
+
+  <% content_for :title, "Meal plans" %>
+
+  <div class="flex justify-between items-center">
+    <h1 class="font-bold text-4xl">Meal plans</h1>
+    <%= link_to "New meal plan", new_meal_plan_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
+  </div>
+
+  <div id="meal_plans" class="min-w-full">
+    <% @meal_plans.each do |meal_plan| %>
+      <%= render meal_plan %>
+      <p>
+        <%= link_to "Show this meal plan", meal_plan, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+      </p>
+    <% end %>
+  </div>
+</div>

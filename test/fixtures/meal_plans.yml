@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  meals: 1
+  rating: 1
+
+two:
+  meals: 1
+  rating: 1

@@ -1,0 +1,13 @@
+<%= content_tag :div, class: "nested-fields", data: { new_record: form.object.new_record? } do %>
+  <div>
+    <%= form.label :food_id %>
+    <%= form.collection_select :food_id, Food.order(:name), :id, :name, { prompt: true }, { class: "block shadow rounded-md border border-gray-400 outline-none px-3 py-2 mt-2 w-full" } %>
+
+    <%= form.label :portions %>
+    <%= form.number_field :portions, class: "block shadow rounded-md border border-gray-400 outline-none px-3 py-2 mt-2 w-full" %>
+
+    <small><%= link_to "Remove", "#", data: { action: "click->nested-form#remove_association" } %></small>
+  </div>
+
+  <%= form.hidden_field :_destroy %>
+<% end %>

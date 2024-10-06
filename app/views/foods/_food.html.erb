@@ -1,0 +1,27 @@
+<div id="<%= dom_id food %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= food.name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Package portions:</strong>
+    <%= food.package_portions || "N/A" %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Category:</strong>
+    <%= food.category.name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Kind:</strong>
+    <%= food.kind.name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Frequency:</strong>
+    <%= food.frequency.name %>
+  </p>
+
+</div>

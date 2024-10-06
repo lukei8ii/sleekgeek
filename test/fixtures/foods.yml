@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  package_portions: 1
+  category: one
+  kind: one
+  frequency: one
+
+two:
+  name: MyString
+  package_portions: 1
+  category: two
+  kind: two
+  frequency: two
