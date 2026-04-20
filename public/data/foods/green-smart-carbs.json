@@ -1,0 +1,378 @@
+{
+  "list": "green",
+  "groupId": "smart-carbs",
+  "groupLabel": "Smart Carbs",
+  "sections": [
+    {
+      "title": "Starchy Veg",
+      "items": [
+        {
+          "id": "green-smart-carbs-butternut-squash",
+          "name": "Butternut Squash",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-potatoes",
+          "name": "Potatoes",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-pumpkin",
+          "name": "Pumpkin (canned)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-sweet-potatoes",
+          "name": "Sweet Potatoes",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Whole Grains",
+      "items": [
+        {
+          "id": "green-smart-carbs-barley",
+          "name": "Barley",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-oats",
+          "name": "Oats",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-quinoa",
+          "name": "Quinoa",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-rice",
+          "name": "Rice (brown, black, wild)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Legumes",
+      "items": [
+        {
+          "id": "green-smart-carbs-beans",
+          "name": "Beans",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-chickpeas",
+          "name": "Chickpeas",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-lentils",
+          "name": "Lentils",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-peas",
+          "name": "Peas",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fruit (fresh, not dried or canned)",
+      "items": [
+        {
+          "id": "green-smart-carbs-apples",
+          "name": "Apples",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-apricots",
+          "name": "Apricots",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-bananas",
+          "name": "Bananas",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-berries",
+          "name": "Berries",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-cherries",
+          "name": "Cherries",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-figs",
+          "name": "Figs",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-grapes",
+          "name": "Grapes",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-kiwifruit",
+          "name": "Kiwifruit",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-mangoes",
+          "name": "Mangoes",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-melons",
+          "name": "Melons",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-oranges-and-nectarines",
+          "name": "Oranges and Nectarines",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-peaches",
+          "name": "Peaches",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-pears",
+          "name": "Pears",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-plums",
+          "name": "Plums",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-smart-carbs-watermelon",
+          "name": "Watermelon",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    }
+  ]
+}

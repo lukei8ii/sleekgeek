@@ -1,0 +1,404 @@
+.panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.panel h2 {
+  margin: 0;
+  font: 800 1.3rem/1.1 var(--font-display);
+  color: var(--ink);
+}
+
+.panel p {
+  margin: 0.35rem 0 0;
+  color: var(--ink-muted);
+}
+
+.controls {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.controlGroup,
+.actions {
+  border: 1px solid var(--line);
+  border-radius: 0.95rem;
+  background: linear-gradient(180deg, #ffffff, #fbfdfc);
+  padding: 0.8rem;
+  box-shadow: 0 1px 0 rgba(16, 24, 40, 0.02);
+}
+
+.controlGroup h3 {
+  margin: 0 0 0.65rem;
+  font: 800 0.78rem/1 var(--font-sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.fieldGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  align-items: end;
+}
+
+.fieldGrid label {
+  display: grid;
+  gap: 0.35rem;
+  font: 600 0.82rem/1 var(--font-sans);
+  color: var(--ink-muted);
+}
+
+.fieldGrid input,
+.fieldGrid select {
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  background: #fff;
+  padding: 0.62rem 0.7rem;
+  font: 500 0.95rem/1 var(--font-sans);
+  transition:
+    border-color 120ms ease,
+    box-shadow 120ms ease;
+}
+
+.fieldGrid input:focus,
+.fieldGrid select:focus {
+  outline: 0;
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 16%, transparent);
+}
+
+.helperText {
+  margin: 0.65rem 0 0;
+  color: var(--ink-muted);
+  font: 500 0.78rem/1.25 var(--font-sans);
+}
+
+.includeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.includeHeader h3 {
+  margin: 0;
+}
+
+.clearIncludedFoods {
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: #fff;
+  color: var(--ink-muted);
+  padding: 0.35rem 0.5rem;
+  font: 700 0.72rem/1 var(--font-sans);
+}
+
+.remainingSummary {
+  margin: 0.55rem 0 0;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--ink-muted);
+  font: 600 0.75rem/1.2 var(--font-sans);
+}
+
+.remainingBadge {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 8%, white);
+  color: var(--ink);
+  padding: 0.14rem 0.42rem;
+  margin-left: 0.45rem;
+  font: 700 0.7rem/1 var(--font-sans);
+}
+
+.includeSearchRow {
+  margin-top: 0.6rem;
+}
+
+.includeSearchRow input {
+  inline-size: 100%;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  background: #fff;
+  padding: 0.62rem 0.7rem;
+  font: 500 0.95rem/1 var(--font-sans);
+}
+
+.searchResults {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.searchResults li + li {
+  border-top: 1px solid var(--line);
+}
+
+.searchResults button {
+  inline-size: 100%;
+  border: 0;
+  background: #fff;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.58rem 0.65rem;
+  font: 600 0.84rem/1.2 var(--font-sans);
+  color: var(--ink);
+}
+
+.searchResults button small {
+  color: var(--ink-muted);
+  font: 600 0.72rem/1.2 var(--font-sans);
+}
+
+.searchResults button:hover {
+  background: #f7f9f8;
+}
+
+.includedFoodsList {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.includedFoodsList li {
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  background: #fff;
+  padding: 0.55rem 0.65rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 0.55rem;
+  align-items: end;
+}
+
+.includedFoodMeta {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.includedFoodMeta strong {
+  font: 700 0.85rem/1.2 var(--font-sans);
+  color: var(--ink);
+}
+
+.includedFoodMeta span {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font: 600 0.75rem/1.2 var(--font-sans);
+  color: var(--ink-muted);
+}
+
+.includedFoodsList label {
+  display: grid;
+  gap: 0.2rem;
+  font: 600 0.72rem/1 var(--font-sans);
+  color: var(--ink-muted);
+}
+
+.includedFoodsList input {
+  inline-size: 4.4rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  padding: 0.45rem 0.5rem;
+  font: 600 0.82rem/1 var(--font-sans);
+}
+
+.removeIncludedFood {
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: #fff;
+  color: var(--ink-muted);
+  padding: 0.46rem 0.58rem;
+  font: 700 0.75rem/1 var(--font-sans);
+}
+
+.emptyIncludedFoods {
+  margin: 0.6rem 0 0;
+  color: var(--ink-muted);
+  font: 500 0.78rem/1.2 var(--font-sans);
+}
+
+.actions {
+  display: grid;
+  gap: 0.7rem;
+  align-content: start;
+}
+
+.meta {
+  margin: 0;
+  color: var(--ink-muted);
+  font: 600 0.84rem/1.35 var(--font-sans);
+}
+
+.meta strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.actionButtons {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.6rem;
+}
+
+.actionButtons button {
+  border: 0;
+  border-radius: 0.8rem;
+  padding: 0.7rem;
+  font: 700 0.9rem/1 var(--font-sans);
+  transition:
+    transform 120ms ease,
+    filter 120ms ease;
+}
+
+.actionButtons button:hover {
+  filter: brightness(0.98);
+}
+
+.actionButtons button:active {
+  transform: translateY(1px);
+}
+
+.generateButton {
+  background: var(--ink);
+  color: #fff;
+}
+
+.copyButton {
+  border: 1px solid var(--line) !important;
+  background: #fff;
+  color: var(--ink);
+}
+
+.copyButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.planList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.planList > li {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0.75rem;
+  background: #fff;
+}
+
+.mealCard {
+  cursor: help;
+}
+
+.planList header {
+  margin-bottom: 0.45rem;
+}
+
+.planList header strong {
+  color: var(--ink);
+  font: 700 0.93rem/1 var(--font-sans);
+}
+
+.planList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.mealSubgroup {
+  margin-top: 0.35rem;
+  border: 1px solid var(--line-soft);
+  border-radius: 0.7rem;
+  background: linear-gradient(180deg, #ffffff, #f9fbfa);
+  padding: 0.45rem 0.5rem;
+}
+
+.mealSubgroup + .mealSubgroup {
+  margin-top: 0.55rem;
+}
+
+.mealSubgroupTitle {
+  margin: 0 0 0.35rem;
+  color: var(--ink);
+  font: 900 0.7rem/1 var(--font-sans);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.planRow {
+  display: grid;
+  grid-template-columns: 5.4rem minmax(0, 1fr) auto;
+  align-items: baseline;
+  column-gap: 0.6rem;
+  font-size: 0.85rem;
+}
+
+.rowLabel {
+  color: var(--ink-muted);
+  text-transform: capitalize;
+}
+
+.rowFood {
+  color: var(--ink);
+  font-weight: 700;
+  text-align: right;
+  justify-self: end;
+}
+
+.rowAmount {
+  color: var(--ink-muted);
+  font-weight: 600;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 960px) {
+  .fieldGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .actionButtons {
+    grid-template-columns: 1fr;
+  }
+
+  .planList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .fieldGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .controlGroup,
+  .actions {
+    padding: 0.72rem;
+  }
+
+  .includedFoodsList li {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+}

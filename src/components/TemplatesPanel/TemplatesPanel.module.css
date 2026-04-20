@@ -1,0 +1,47 @@
+.panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.panel h2 {
+  margin: 0;
+  color: var(--ink);
+  font: 800 1.3rem/1.1 var(--font-display);
+}
+
+.panel p {
+  margin: 0.35rem 0 0;
+  color: var(--ink-muted);
+}
+
+.templateList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.templateList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0.75rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.templateList li:last-child {
+  border-bottom: 0;
+}
+
+.templateList strong {
+  display: block;
+  color: var(--ink);
+}
+
+.templateList span {
+  color: var(--ink-muted);
+  font-size: 0.84rem;
+}

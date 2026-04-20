@@ -1,0 +1,103 @@
+{
+  "list": "orange",
+  "groupId": "carbs",
+  "groupLabel": "Carbs",
+  "sections": [
+    {
+      "title": "Grains",
+      "items": [
+        {
+          "id": "orange-carbs-rice",
+          "name": "Rice (white)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-carbs-rice-cakes",
+          "name": "Rice Cakes (plain)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-carbs-couscous",
+          "name": "Couscous",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-carbs-whole-grain-crackers",
+          "name": "Whole Grain Crackers",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-carbs-whole-grain-pasta",
+          "name": "Whole Grain Pasta",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-carbs-whole-grain-wraps",
+          "name": "Whole Grain Wraps",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-carbs-whole-grain-bread",
+          "name": "Whole Grain Bread",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    }
+  ]
+}

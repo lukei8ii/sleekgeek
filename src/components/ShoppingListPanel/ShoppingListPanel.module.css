@@ -1,0 +1,60 @@
+.panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.panel h2 {
+  margin: 0;
+  font: 800 1.3rem/1.1 var(--font-display);
+  color: var(--ink);
+}
+
+.panel p {
+  margin: 0.35rem 0 0;
+  color: var(--ink-muted);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.list li {
+  display: block;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--line-soft);
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.list li.sectionHeader {
+  display: block;
+  padding: 0.75rem;
+  background: var(--surface-light);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-muted);
+  border-bottom: 1px solid var(--line);
+  margin-top: 0.5rem;
+}
+
+.list li:last-child {
+  border-bottom: 0;
+}
+
+.list strong {
+  color: var(--ink);
+}
+
+.list span {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}

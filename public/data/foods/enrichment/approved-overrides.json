@@ -1,0 +1,2014 @@
+{
+  "packageOverrides": [
+    {
+      "foodId": "green-colourful-vegetables-asparagus",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-broccoli",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-brussels-sprouts",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-cabbage",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-carrots",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-cauliflower",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-celery",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-cucumber",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-green-beans",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-lettuce",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-onions",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-peppers",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-tomatoes",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-colourful-vegetables-zucchini",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12 oz fresh bag"
+      },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-almonds",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-avocado-oil",
+      "packageSize": {
+        "servings": 34,
+        "unit": "16.9 fl oz bottle"
+      },
+      "packageSource": "Public standard: cooking oil bottle",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-brazil-nuts",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-cashews",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-chia-seeds",
+      "packageSize": {
+        "servings": 24,
+        "unit": "12 oz bag"
+      },
+      "packageSource": "Public standard: seed bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-flax-seeds",
+      "packageSize": {
+        "servings": 24,
+        "unit": "12 oz bag"
+      },
+      "packageSource": "Public standard: seed bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-hazelnuts",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-macadamias",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-nut-butters",
+      "packageSize": {
+        "servings": 14,
+        "unit": "16 oz jar"
+      },
+      "packageSource": "Public standard: peanut butter jar",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-olive-oil",
+      "packageSize": {
+        "servings": 34,
+        "unit": "16.9 fl oz bottle"
+      },
+      "packageSource": "Public standard: cooking oil bottle",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-peanuts",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-pecans",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-pine-nuts",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-pumpkin-seeds",
+      "packageSize": {
+        "servings": 24,
+        "unit": "12 oz bag"
+      },
+      "packageSource": "Public standard: seed bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-sunflower-seeds",
+      "packageSize": {
+        "servings": 24,
+        "unit": "12 oz bag"
+      },
+      "packageSource": "Public standard: seed bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-healthy-fats-walnuts",
+      "packageSize": {
+        "servings": 16,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: nut bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-beans",
+      "packageSize": {
+        "servings": 13,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry legumes bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-beef",
+      "packageSize": {
+        "servings": 4,
+        "unit": "16 oz package"
+      },
+      "packageSource": "Public standard: fresh red meat pack",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-cheese",
+      "packageSize": {
+        "servings": 8,
+        "unit": "8 oz block"
+      },
+      "packageSource": "Public standard: 8 oz cheese block",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-chicken",
+      "packageSize": {
+        "servings": 4,
+        "unit": "16 oz package"
+      },
+      "packageSource": "Public standard: fresh poultry pack",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-chickpeas",
+      "packageSize": {
+        "servings": 13,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry legumes bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-cottage-cheese",
+      "packageSize": {
+        "servings": 4,
+        "unit": "16 oz tub"
+      },
+      "packageSource": "Public standard: 16 oz cottage cheese tub",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-edamame",
+      "packageSize": {
+        "servings": 4,
+        "unit": "12 oz bag"
+      },
+      "packageSource": "Public standard: frozen edamame bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-eggs",
+      "packageSize": {
+        "servings": 6,
+        "unit": "12-count carton"
+      },
+      "packageSource": "Public standard: 12-count carton, 2-egg serving",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "usda-foodsafety-egg-portion",
+          "label": "USDA egg handling and serving references",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-lamb",
+      "packageSize": {
+        "servings": 4,
+        "unit": "16 oz package"
+      },
+      "packageSource": "Public standard: fresh red meat pack",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-lentils",
+      "packageSize": {
+        "servings": 13,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry legumes bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-mackerel",
+      "packageSize": {
+        "servings": 1,
+        "unit": "4 oz can"
+      },
+      "packageSource": "Public standard: small canned fish",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-oysters",
+      "packageSize": {
+        "servings": 1,
+        "unit": "3.75 oz can"
+      },
+      "packageSource": "Public standard: canned oysters (in water/brine)",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-plain-yoghurt-greek-yoghurt",
+      "packageSize": {
+        "servings": 5,
+        "unit": "32 oz tub"
+      },
+      "packageSource": "Public standard: 32 oz yogurt tub",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-pork",
+      "packageSize": {
+        "servings": 4,
+        "unit": "16 oz package"
+      },
+      "packageSource": "Public standard: fresh red meat pack",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-salmon",
+      "packageSize": {
+        "servings": 4,
+        "unit": "16 oz fillet pack"
+      },
+      "packageSource": "Public standard: fresh fish fillet pack",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-sardines",
+      "packageSize": {
+        "servings": 1,
+        "unit": "4 oz can"
+      },
+      "packageSource": "Public standard: small canned fish",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-trout",
+      "packageSize": {
+        "servings": 4,
+        "unit": "16 oz fillet pack"
+      },
+      "packageSource": "Public standard: fresh fish fillet pack",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-quality-protein-turkey",
+      "packageSize": {
+        "servings": 4,
+        "unit": "16 oz package"
+      },
+      "packageSource": "Public standard: fresh poultry pack",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-apples",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-apricots",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-bananas",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-barley",
+      "packageSize": {
+        "servings": 12,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry whole grain bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-grains-serving",
+          "label": "USDA MyPlate grains group examples",
+          "url": "https://www.myplate.gov/eat-healthy/grains"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-beans",
+      "packageSize": {
+        "servings": 13,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry legume bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-berries",
+      "packageSize": {
+        "servings": 3,
+        "unit": "6 oz clamshell"
+      },
+      "packageSource": "Public standard: fresh berries clamshell",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-butternut-squash",
+      "packageSize": {
+        "servings": 10,
+        "unit": "5 lb bag"
+      },
+      "packageSource": "Public standard: starchy veg produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-cherries",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-chickpeas",
+      "packageSize": {
+        "servings": 13,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry legume bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-figs",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-grapes",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-lentils",
+      "packageSize": {
+        "servings": 13,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry legume bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-protein-serving",
+          "label": "USDA MyPlate protein foods examples",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-mangoes",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-melons",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-oats",
+      "packageSize": {
+        "servings": 30,
+        "unit": "42 oz canister"
+      },
+      "packageSource": "Public standard: rolled oats canister",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-grains-serving",
+          "label": "USDA MyPlate grains group examples",
+          "url": "https://www.myplate.gov/eat-healthy/grains"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-oranges-and-nectarines",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-peaches",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-pears",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-peas",
+      "packageSize": {
+        "servings": 3,
+        "unit": "12 oz bag"
+      },
+      "packageSource": "Public standard: frozen peas bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-plums",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-potatoes",
+      "packageSize": {
+        "servings": 10,
+        "unit": "5 lb bag"
+      },
+      "packageSource": "Public standard: starchy veg produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-pumpkin",
+      "packageSize": {
+        "servings": 10,
+        "unit": "5 lb bag"
+      },
+      "packageSource": "Public standard: starchy veg produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-quinoa",
+      "packageSize": {
+        "servings": 12,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry whole grain bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-grains-serving",
+          "label": "USDA MyPlate grains group examples",
+          "url": "https://www.myplate.gov/eat-healthy/grains"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-rice",
+      "packageSize": {
+        "servings": 12,
+        "unit": "16 oz bag"
+      },
+      "packageSource": "Public standard: dry whole grain bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-grains-serving",
+          "label": "USDA MyPlate grains group examples",
+          "url": "https://www.myplate.gov/eat-healthy/grains"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-sweet-potatoes",
+      "packageSize": {
+        "servings": 10,
+        "unit": "5 lb bag"
+      },
+      "packageSource": "Public standard: starchy veg produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-veg-serving",
+          "label": "USDA MyPlate vegetable group examples",
+          "url": "https://www.myplate.gov/eat-healthy/vegetables"
+        },
+        {
+          "provider": "public-web",
+          "id": "fda-serving-size-guidance",
+          "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+        }
+      ]
+    },
+    {
+      "foodId": "green-smart-carbs-watermelon",
+      "packageSize": {
+        "servings": 8,
+        "unit": "3 lb produce bag"
+      },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "references": [
+        {
+          "provider": "public-web",
+          "id": "myplate-fruit-serving",
+          "label": "USDA MyPlate food group examples",
+          "url": "https://www.myplate.gov/eat-healthy/fruits"
+        }
+      ]
+    },
+    {
+      "foodId": "orange-protein-beef",
+      "packageSize": {
+        "servings": 2,
+        "unit": "1 lb package"
+      },
+      "packageSource": "User package preference"
+    },
+    {
+      "foodId": "orange-protein-cheese",
+      "packageSize": {
+        "servings": 3,
+        "unit": "24 oz package"
+      },
+      "packageSource": "User package preference"
+    },
+    {
+      "foodId": "orange-protein-chicken-deli-meat",
+      "packageSize": {
+        "servings": 2,
+        "unit": "1 lb package"
+      },
+      "packageSource": "User package preference"
+    },
+    {
+      "foodId": "orange-protein-chicken-patties",
+      "packageSize": {
+        "servings": 2,
+        "unit": "1 lb package"
+      },
+      "packageSource": "User package preference"
+    },
+    {
+      "foodId": "orange-protein-chicken-sausage",
+      "packageSize": {
+        "servings": 1.5,
+        "unit": "12 oz package"
+      },
+      "packageSource": "User package preference"
+    },
+    {
+      "foodId": "orange-protein-minimally-processed-deli-meats",
+      "packageSize": {
+        "servings": 2,
+        "unit": "1 lb package"
+      },
+      "packageSource": "User package preference"
+    },
+    {
+      "foodId": "orange-protein-protein-bars",
+      "packageSize": {
+        "servings": 12,
+        "unit": "box of 12"
+      },
+      "packageSource": "User package preference"
+    },
+    {
+      "foodId": "orange-protein-protein-powders",
+      "packageSize": {
+        "servings": 1,
+        "unit": "5 lb tub"
+      },
+      "packageSource": "User package preference"
+    },
+    {
+      "foodId": "orange-protein-tuna",
+      "packageSize": {
+        "servings": 1,
+        "unit": "5 oz can"
+      },
+      "packageSource": "User package preference"
+    }
+  ],
+  "portionOverrides": [
+    {
+      "foodId": "green-quality-protein-beef",
+      "defaultPortion": {
+        "amount": 4,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-lamb",
+      "defaultPortion": {
+        "amount": 4,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-pork",
+      "defaultPortion": {
+        "amount": 4,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-chicken",
+      "defaultPortion": {
+        "amount": 4,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-turkey",
+      "defaultPortion": {
+        "amount": 4,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-eggs",
+      "defaultPortion": {
+        "amount": 2,
+        "unit": "eggs"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-mackerel",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "can"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-salmon",
+      "defaultPortion": {
+        "amount": 4,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-sardines",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "can"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-trout",
+      "defaultPortion": {
+        "amount": 4,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-oysters",
+      "defaultPortion": {
+        "amount": 4,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-cheese",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-cottage-cheese",
+      "defaultPortion": {
+        "amount": 0.5,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-plain-yoghurt-greek-yoghurt",
+      "defaultPortion": {
+        "amount": 170,
+        "unit": "g"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-beans",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-chickpeas",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-lentils",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-quality-protein-edamame",
+      "defaultPortion": {
+        "amount": 0.75,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-onions",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-peppers",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-tomatoes",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-carrots",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-cauliflower",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-cabbage",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-asparagus",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-broccoli",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-brussels-sprouts",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-celery",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-cucumber",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-green-beans",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-lettuce",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-colourful-vegetables-zucchini",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-butternut-squash",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-potatoes",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-pumpkin",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-sweet-potatoes",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-barley",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-oats",
+      "defaultPortion": {
+        "amount": 0.5,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-quinoa",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-rice",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-beans",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-chickpeas",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-lentils",
+      "defaultPortion": {
+        "amount": 0.25,
+        "unit": "cup dry"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-peas",
+      "defaultPortion": {
+        "amount": 0.67,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-apples",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-apricots",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-bananas",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-berries",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "cup"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-cherries",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-figs",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-grapes",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-mangoes",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-melons",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-oranges-and-nectarines",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-peaches",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-pears",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-plums",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-smart-carbs-watermelon",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "medium fruit"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-avocado-oil",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-olive-oil",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-almonds",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-brazil-nuts",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-cashews",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-hazelnuts",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-macadamias",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-pecans",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-pine-nuts",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-walnuts",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-chia-seeds",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-flax-seeds",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-pumpkin-seeds",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-sunflower-seeds",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-nut-butters",
+      "defaultPortion": {
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    },
+    {
+      "foodId": "green-healthy-fats-peanuts",
+      "defaultPortion": {
+        "amount": 1,
+        "unit": "oz"
+      }
+    }
+  ]
+}

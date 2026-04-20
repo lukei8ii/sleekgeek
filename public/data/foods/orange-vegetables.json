@@ -1,0 +1,64 @@
+{
+  "list": "orange",
+  "groupId": "vegetables",
+  "groupLabel": "Vegetables",
+  "sections": [
+    {
+      "title": "Starchy Veg",
+      "items": [
+        {
+          "id": "orange-vegetables-butternut-squash",
+          "name": "Butternut Squash",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-vegetables-potatoes",
+          "name": "Potatoes",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-vegetables-pumpkin",
+          "name": "Pumpkin (canned)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-vegetables-sweet-potatoes",
+          "name": "Sweet Potatoes",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    }
+  ]
+}

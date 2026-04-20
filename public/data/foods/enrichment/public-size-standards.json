@@ -1,0 +1,353 @@
+{
+  "defaultApplyToLists": ["green"],
+  "sources": [
+    {
+      "id": "fda-serving-size-guidance",
+      "label": "FDA Reference Amounts Customarily Consumed (RACC)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+    },
+    {
+      "id": "usda-foodsafety-egg-portion",
+      "label": "USDA egg handling and serving references",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs"
+    },
+    {
+      "id": "myplate-fruit-serving",
+      "label": "USDA MyPlate food group examples",
+      "url": "https://www.myplate.gov/eat-healthy/fruits"
+    },
+    {
+      "id": "myplate-veg-serving",
+      "label": "USDA MyPlate vegetable group examples",
+      "url": "https://www.myplate.gov/eat-healthy/vegetables"
+    },
+    {
+      "id": "myplate-protein-serving",
+      "label": "USDA MyPlate protein foods examples",
+      "url": "https://www.myplate.gov/eat-healthy/protein-foods"
+    },
+    {
+      "id": "myplate-grains-serving",
+      "label": "USDA MyPlate grains group examples",
+      "url": "https://www.myplate.gov/eat-healthy/grains"
+    }
+  ],
+  "rules": [
+    {
+      "id": "protein-red-meat-cuts",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-beef", "-lamb", "-pork", "-wild-game", "-ostrich"],
+      "packageSize": { "servings": 4, "unit": "16 oz package" },
+      "defaultPortion": { "amount": 4, "unit": "oz" },
+      "packageSource": "Public standard: fresh red meat pack",
+      "confidence": "high",
+      "references": ["myplate-protein-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-poultry-cuts",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-chicken", "-turkey", "-duck"],
+      "excludeAny": ["deep-fried"],
+      "packageSize": { "servings": 4, "unit": "16 oz package" },
+      "defaultPortion": { "amount": 4, "unit": "oz" },
+      "packageSource": "Public standard: fresh poultry pack",
+      "confidence": "high",
+      "references": ["myplate-protein-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-eggs-carton",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-eggs"],
+      "packageSize": { "servings": 6, "unit": "12-count carton" },
+      "defaultPortion": { "amount": 2, "unit": "eggs" },
+      "packageSource": "Public standard: 12-count carton, 2-egg serving",
+      "confidence": "high",
+      "references": ["usda-foodsafety-egg-portion", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-finfish-fresh",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": [
+        "-bass",
+        "-hake",
+        "-kingklip",
+        "-salmon",
+        "-snoek",
+        "-trout"
+      ],
+      "excludeAny": ["sea-bass", "high-mercury"],
+      "packageSize": { "servings": 4, "unit": "16 oz fillet pack" },
+      "defaultPortion": { "amount": 4, "unit": "oz" },
+      "packageSource": "Public standard: fresh fish fillet pack",
+      "confidence": "medium",
+      "references": ["myplate-protein-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-finfish-small-canned",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-sardines", "-mackerel"],
+      "packageSize": { "servings": 1, "unit": "4 oz can" },
+      "defaultPortion": { "amount": 1, "unit": "can" },
+      "packageSource": "Public standard: small canned fish",
+      "confidence": "medium",
+      "references": ["fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-shellfish-mixed-pack",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": [
+        "-calamari",
+        "-clams-and-mussels",
+        "-crab",
+        "-oysters",
+        "-prawns-and-shrimp"
+      ],
+      "packageSize": { "servings": 3, "unit": "12 oz package" },
+      "defaultPortion": { "amount": 4, "unit": "oz" },
+      "packageSource": "Public standard: frozen shellfish pack",
+      "confidence": "medium",
+      "references": ["myplate-protein-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-yoghurt",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-plain-yoghurt", "-greek-yoghurt"],
+      "packageSize": { "servings": 5, "unit": "32 oz tub" },
+      "defaultPortion": { "amount": 170, "unit": "g" },
+      "packageSource": "Public standard: 32 oz yogurt tub",
+      "confidence": "high",
+      "references": ["fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-cottage-cheese",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-cottage-cheese"],
+      "packageSize": { "servings": 4, "unit": "16 oz tub" },
+      "defaultPortion": { "amount": 0.5, "unit": "cup" },
+      "packageSource": "Public standard: 16 oz cottage cheese tub",
+      "confidence": "high",
+      "references": ["fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-cheese-block",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-cheese"],
+      "excludeAny": ["cottage"],
+      "packageSize": { "servings": 8, "unit": "8 oz block" },
+      "defaultPortion": { "amount": 1, "unit": "oz" },
+      "packageSource": "Public standard: 8 oz cheese block",
+      "confidence": "high",
+      "references": ["fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-dry-legumes",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-beans", "-chickpeas", "-lentils"],
+      "packageSize": { "servings": 13, "unit": "16 oz bag" },
+      "defaultPortion": { "amount": 0.25, "unit": "cup dry" },
+      "packageSource": "Public standard: dry legumes bag",
+      "confidence": "high",
+      "references": ["myplate-protein-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "protein-tofu-tempeh",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-tofu-and-tempeh"],
+      "packageSize": { "servings": 3, "unit": "14 oz block" },
+      "defaultPortion": { "amount": 4, "unit": "oz" },
+      "packageSource": "Public standard: tofu/tempeh block",
+      "confidence": "medium",
+      "references": ["myplate-protein-serving"]
+    },
+    {
+      "id": "protein-edamame",
+      "applyToGroupIds": ["quality-protein"],
+      "matchAny": ["-edamame"],
+      "packageSize": { "servings": 4, "unit": "12 oz bag" },
+      "defaultPortion": { "amount": 0.75, "unit": "cup" },
+      "packageSource": "Public standard: frozen edamame bag",
+      "confidence": "medium",
+      "references": ["myplate-protein-serving"]
+    },
+
+    {
+      "id": "carbs-starchy-veg-bag",
+      "applyToGroupIds": ["smart-carbs"],
+      "matchAny": [
+        "-potatoes",
+        "-sweet-potatoes",
+        "-pumpkin",
+        "-butternut-squash"
+      ],
+      "packageSize": { "servings": 10, "unit": "5 lb bag" },
+      "defaultPortion": { "amount": 1, "unit": "medium" },
+      "packageSource": "Public standard: starchy veg produce bag",
+      "confidence": "medium",
+      "references": ["myplate-veg-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "carbs-oats-canister",
+      "applyToGroupIds": ["smart-carbs"],
+      "matchAny": ["-oats"],
+      "packageSize": { "servings": 30, "unit": "42 oz canister" },
+      "defaultPortion": { "amount": 0.5, "unit": "cup dry" },
+      "packageSource": "Public standard: rolled oats canister",
+      "confidence": "high",
+      "references": ["myplate-grains-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "carbs-dry-grains",
+      "applyToGroupIds": ["smart-carbs"],
+      "matchAny": ["-rice", "-quinoa", "-barley", "-buckwheat", "-spelt"],
+      "excludeAny": ["flavoured", "sweetened", "rice-cakes"],
+      "packageSize": { "servings": 12, "unit": "16 oz bag" },
+      "defaultPortion": { "amount": 0.25, "unit": "cup dry" },
+      "packageSource": "Public standard: dry whole grain bag",
+      "confidence": "high",
+      "references": ["myplate-grains-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "carbs-dry-legumes",
+      "applyToGroupIds": ["smart-carbs"],
+      "matchAny": ["-beans", "-chickpeas", "-lentils", "-pulses", "-soy-beans"],
+      "packageSize": { "servings": 13, "unit": "16 oz bag" },
+      "defaultPortion": { "amount": 0.25, "unit": "cup dry" },
+      "packageSource": "Public standard: dry legume bag",
+      "confidence": "high",
+      "references": ["myplate-protein-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "carbs-peas-frozen",
+      "applyToGroupIds": ["smart-carbs"],
+      "matchAny": ["-peas"],
+      "excludeAny": ["snap"],
+      "packageSize": { "servings": 3, "unit": "12 oz bag" },
+      "defaultPortion": { "amount": 0.67, "unit": "cup" },
+      "packageSource": "Public standard: frozen peas bag",
+      "confidence": "medium",
+      "references": ["myplate-veg-serving", "fda-serving-size-guidance"]
+    },
+    {
+      "id": "carbs-fruit-generic",
+      "applyToGroupIds": ["smart-carbs"],
+      "matchAny": [
+        "-apples",
+        "-bananas",
+        "-grapes",
+        "-pears",
+        "-peaches",
+        "-plums",
+        "-oranges",
+        "-nectarines",
+        "-mangoes",
+        "-pineapple",
+        "-watermelon",
+        "-cherries",
+        "-apricots",
+        "-figs",
+        "-kiwifruit",
+        "-melons",
+        "-lemons-and-limes"
+      ],
+      "packageSize": { "servings": 8, "unit": "3 lb produce bag" },
+      "defaultPortion": { "amount": 1, "unit": "medium fruit" },
+      "packageSource": "Public standard: fresh fruit produce bag",
+      "confidence": "medium",
+      "references": ["myplate-fruit-serving"]
+    },
+    {
+      "id": "carbs-berries-clamshell",
+      "applyToGroupIds": ["smart-carbs"],
+      "matchAny": ["-berries"],
+      "packageSize": { "servings": 3, "unit": "6 oz clamshell" },
+      "defaultPortion": { "amount": 1, "unit": "cup" },
+      "packageSource": "Public standard: fresh berries clamshell",
+      "confidence": "medium",
+      "references": ["myplate-fruit-serving", "fda-serving-size-guidance"]
+    },
+
+    {
+      "id": "fats-cooking-oils",
+      "applyToGroupIds": ["healthy-fats"],
+      "matchAny": ["-olive-oil", "-avocado-oil", "-coconut-oil", "-walnut-oil"],
+      "packageSize": { "servings": 34, "unit": "16.9 fl oz bottle" },
+      "defaultPortion": { "amount": 1, "unit": "tbsp" },
+      "packageSource": "Public standard: cooking oil bottle",
+      "confidence": "high",
+      "references": ["fda-serving-size-guidance"]
+    },
+    {
+      "id": "fats-nuts-bag",
+      "applyToGroupIds": ["healthy-fats"],
+      "matchAny": [
+        "-almonds",
+        "-cashews",
+        "-walnuts",
+        "-pecans",
+        "-hazelnuts",
+        "-macadamias",
+        "-brazil-nuts",
+        "-peanuts",
+        "-pine-nuts"
+      ],
+      "packageSize": { "servings": 16, "unit": "16 oz bag" },
+      "defaultPortion": { "amount": 1, "unit": "oz" },
+      "packageSource": "Public standard: nut bag",
+      "confidence": "high",
+      "references": ["fda-serving-size-guidance"]
+    },
+    {
+      "id": "fats-seeds-bag",
+      "applyToGroupIds": ["healthy-fats"],
+      "matchAny": [
+        "-chia-seeds",
+        "-flax-seeds",
+        "-hemp-seeds",
+        "-pumpkin-seeds",
+        "-sesame-seeds",
+        "-sunflower-seeds"
+      ],
+      "packageSize": { "servings": 24, "unit": "12 oz bag" },
+      "defaultPortion": { "amount": 1, "unit": "tbsp" },
+      "packageSource": "Public standard: seed bag",
+      "confidence": "high",
+      "references": ["fda-serving-size-guidance"]
+    },
+    {
+      "id": "fats-peanut-butter-jar",
+      "applyToGroupIds": ["healthy-fats"],
+      "matchAny": ["-peanut-butter", "-nut-butters"],
+      "packageSize": { "servings": 14, "unit": "16 oz jar" },
+      "defaultPortion": { "amount": 2, "unit": "tbsp" },
+      "packageSource": "Public standard: peanut butter jar",
+      "confidence": "high",
+      "references": ["fda-serving-size-guidance"]
+    },
+    {
+      "id": "veg-leafy-cruciferous-bag",
+      "applyToGroupIds": ["colourful-vegetables"],
+      "matchAny": [
+        "-broccoli",
+        "-cauliflower",
+        "-cabbage",
+        "-lettuce",
+        "-leafy-greens",
+        "-brussels-sprouts",
+        "-green-beans",
+        "-cucumber",
+        "-carrots",
+        "-celery",
+        "-zucchini",
+        "-peppers",
+        "-onions",
+        "-tomatoes",
+        "-asparagus"
+      ],
+      "packageSize": { "servings": 6, "unit": "12 oz fresh bag" },
+      "defaultPortion": { "amount": 1, "unit": "cup" },
+      "packageSource": "Public standard: fresh vegetable bag",
+      "confidence": "medium",
+      "references": ["myplate-veg-serving", "fda-serving-size-guidance"]
+    }
+  ]
+}

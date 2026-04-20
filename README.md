@@ -1,5 +1,35 @@
 # React + TypeScript + Vite
 
+## Food Data Strategy (Hybrid)
+
+This repo now supports a hybrid data strategy for package and portion metadata:
+
+1. Official Sleekgeek food list as the base food taxonomy.
+2. Public-reference package and serving standards as a no-account overlay.
+3. Optional manual edits for edge cases.
+
+The official Sleekgeek food list remains the base taxonomy in `public/data/foods/*.json`.
+Runtime metadata overlays are merged from `public/data/foods/overrides.json`.
+
+### Files
+
+- Base official list: `public/data/foods/*.json`
+- Runtime overlay used by app: `public/data/foods/overrides.json`
+- Enrichment workspace: `public/data/foods/enrichment/`
+  - `public-size-standards.json`
+  - `approved-overrides.json`
+
+### Scripts
+
+- `npm run generate:food-data`
+  - Rebuild official Sleekgeek split JSON files.
+- `npm run generate:overlay-template`
+  - Creates `public/data/foods/overlay-template.json` with all food IDs for easier manual editing.
+- `npm run build:public-overrides`
+  - Builds `approved-overrides.json` from curated public-reference size standards (no API keys).
+- `npm run apply:approved-overrides`
+  - Copies approved overlay edits into runtime `overrides.json`.
+
 ## Deploying to GitHub Pages
 
 This repo is configured to deploy automatically to GitHub Pages via GitHub Actions.

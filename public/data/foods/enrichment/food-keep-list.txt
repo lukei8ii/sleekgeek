@@ -1,0 +1,178 @@
+# Sleekgeek Food Keep List
+# Keep lines for foods you want. Delete lines for foods you do not buy.
+# Format: foodId<TAB>foodName
+
+# GREEN - Quality Protein
+# Section: Meat
+green-quality-protein-beef	Beef (lean)
+green-quality-protein-lamb	Lamb
+green-quality-protein-pork	Pork
+
+# Section: Poultry & Eggs
+green-quality-protein-chicken	Chicken
+green-quality-protein-eggs	Eggs
+green-quality-protein-turkey	Turkey
+
+# Section: Fish
+green-quality-protein-mackerel	Mackerel (North Atlantic, Chub)
+green-quality-protein-salmon	Salmon
+green-quality-protein-sardines	Sardines
+green-quality-protein-trout	Trout
+
+# Section: Seafood and Shellfish
+green-quality-protein-oysters	Oysters (canned, in water/brine)
+green-quality-protein-prawns-and-shrimp Shrimp
+
+# Section: Dairy
+green-quality-protein-cheese	Hard Cheese
+green-quality-protein-cottage-cheese	Cottage Cheese
+green-quality-protein-plain-yoghurt-greek-yoghurt	Plain Yoghurt / Greek Yoghurt
+
+# Section: Plant-Based
+green-quality-protein-beans	Beans
+green-quality-protein-chickpeas	Chickpeas
+green-quality-protein-lentils	Lentils
+green-quality-protein-edamame	Edamame
+
+# GREEN - Colourful Vegetables
+# Section: Red Vegetables
+green-colourful-vegetables-onions	Onions (red)
+green-colourful-vegetables-peppers	Peppers (red)
+green-colourful-vegetables-radishes	Radishes
+green-colourful-vegetables-tomatoes	Tomatoes (red)
+
+# Section: Yellow / Orange Vegetables
+green-colourful-vegetables-carrots	Carrots
+green-colourful-vegetables-corn	Corn
+green-colourful-vegetables-peppers	Peppers (yellow)
+green-colourful-vegetables-tomatoes	Tomatoes (yellow)
+
+# Section: White / Tan / Brown Vegetables
+green-colourful-vegetables-cauliflower	Cauliflower
+green-colourful-vegetables-mushrooms	Mushrooms
+green-colourful-vegetables-onions	Onions (white)
+
+# Section: Purple Vegetables
+green-colourful-vegetables-cabbage	Cabbage (purple)
+green-colourful-vegetables-carrots	Carrots (purple)
+green-colourful-vegetables-eggplant	Eggplant
+
+# Section: Green Vegetables
+green-colourful-vegetables-asparagus	Asparagus
+green-colourful-vegetables-broccoli	Broccoli
+green-colourful-vegetables-brussels-sprouts	Brussels Sprouts
+green-colourful-vegetables-cabbage	Cabbage
+green-colourful-vegetables-celery	Celery
+green-colourful-vegetables-cucumber	Cucumber
+green-colourful-vegetables-green-beans	Green Beans
+green-colourful-vegetables-green-peas	Green Peas
+green-colourful-vegetables-leafy-greens	Leafy Greens
+green-colourful-vegetables-lettuce	Lettuce
+green-colourful-vegetables-peppers	Peppers (green)
+green-colourful-vegetables-sugar-snap-peas	Sugar Snap Peas
+green-colourful-vegetables-zucchini	Zucchini
+
+# GREEN - Smart Carbs
+# Section: Starchy Veg
+green-smart-carbs-butternut-squash	Butternut Squash
+green-smart-carbs-potatoes	Potatoes
+green-smart-carbs-pumpkin	Pumpkin
+green-smart-carbs-sweet-potatoes	Sweet Potatoes
+
+# Section: Whole Grains
+green-smart-carbs-barley	Barley
+green-smart-carbs-oats	Oats
+green-smart-carbs-quinoa	Quinoa
+green-smart-carbs-rice	Rice (brown, black, wild)
+
+# Section: Legumes
+green-smart-carbs-beans	Beans
+green-smart-carbs-chickpeas	Chickpeas
+green-smart-carbs-lentils	Lentils
+green-smart-carbs-peas	Peas
+
+# Section: Fruit (fresh, not dried or canned)
+green-smart-carbs-apples	Apples
+green-smart-carbs-apricots	Apricots
+green-smart-carbs-bananas	Bananas
+green-smart-carbs-berries	Berries
+green-smart-carbs-cherries	Cherries
+green-smart-carbs-figs	Figs
+green-smart-carbs-grapes	Grapes
+green-smart-carbs-kiwifruit	Kiwifruit
+green-smart-carbs-mangoes	Mangoes
+green-smart-carbs-melons	Melons
+green-smart-carbs-oranges-and-nectarines	Oranges and Nectarines
+green-smart-carbs-peaches	Peaches
+green-smart-carbs-pears	Pears
+green-smart-carbs-plums	Plums
+green-smart-carbs-watermelon	Watermelon
+
+# GREEN - Healthy Fats
+# Section: Oils (cold-pressed)
+green-healthy-fats-avocado-oil	Avocado Oil
+green-healthy-fats-olive-oil	Olive Oil (extra virgin)
+
+# Section: Nuts (raw, unflavoured, unsalted)
+green-healthy-fats-almonds	Almonds
+green-healthy-fats-brazil-nuts	Brazil nuts
+green-healthy-fats-cashews	Cashews
+green-healthy-fats-hazelnuts	Hazelnuts
+green-healthy-fats-macadamias	Macadamias
+green-healthy-fats-pecans	Pecans
+green-healthy-fats-pine-nuts	Pine Nuts
+green-healthy-fats-walnuts	Walnuts
+
+# Section: Seeds (raw, unflavoured, unsalted)
+green-healthy-fats-chia-seeds	Chia seeds
+green-healthy-fats-flax-seeds	Flax seeds
+green-healthy-fats-pumpkin-seeds	Pumpkin seeds
+green-healthy-fats-sunflower-seeds	Sunflower seeds
+
+# Section: Other
+green-healthy-fats-avocado	Avocado
+green-healthy-fats-nut-butters	Nut Butters
+green-healthy-fats-olives	Olives
+green-healthy-fats-peanuts	Peanuts
+
+# ORANGE - Protein
+# Section: Meat
+orange-protein-beef	Beef (medium- to high-fat)
+orange-protein-minimally-processed-deli-meats	Minimally Processed Deli Meats
+
+# Section: Poultry
+orange-protein-chicken-sausage	Chicken Sausage
+orange-protein-chicken-patties	Chicken Patties
+orange-protein-chicken-deli-meat	Chicken Deli Meat
+
+# Section: Fish (Medium Mercury)
+orange-protein-tuna	Tuna (Skipjack, "Light meat")
+
+# Section: Dairy
+orange-protein-cheese	Soft Cheese
+
+# Section: Other
+orange-protein-protein-powders	Protein Powders
+orange-protein-protein-bars	Protein Bars
+
+# ORANGE - Vegetables
+# Section: Starchy Veg
+orange-vegetables-butternut-squash	Butternut Squash
+orange-vegetables-potatoes	Potatoes
+orange-vegetables-pumpkin	Pumpkin (canned)
+orange-vegetables-sweet-potatoes	Sweet Potatoes
+
+# ORANGE - Carbs
+# Section: Grains
+orange-carbs-rice	Rice (white)
+orange-carbs-rice-cakes	Rice Cakes (plain)
+orange-carbs-couscous	Couscous
+orange-carbs-whole-grain-crackers	Whole Grain Crackers
+orange-carbs-whole-grain-pasta	Whole Grain Pasta
+orange-carbs-whole-grain-wraps	Whole Grain Wraps
+orange-carbs-whole-grain-bread	Whole Grain Bread
+
+# ORANGE - Fats
+
+# Section: Other
+orange-fats-dark-chocolate	Dark Chocolate

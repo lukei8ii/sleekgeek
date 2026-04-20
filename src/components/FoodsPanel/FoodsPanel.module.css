@@ -1,0 +1,111 @@
+.panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.header h2 {
+  margin: 0;
+  font: 800 1.3rem/1.1 var(--font-display);
+  color: var(--ink);
+}
+
+.header p {
+  margin: 0.35rem 0 0;
+  color: var(--ink-muted);
+}
+
+.metaGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.metaGrid article {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: #fff;
+  padding: 0.75rem;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.metaGrid strong {
+  color: var(--ink);
+  font: 800 1.1rem/1 var(--font-display);
+}
+
+.metaGrid span {
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+}
+
+.tools input,
+.addForm input,
+.addForm select {
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  padding: 0.62rem 0.75rem;
+  font: 500 0.95rem/1 var(--font-sans);
+  background: #fff;
+}
+
+.addForm {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  gap: 0.45rem;
+}
+
+.addForm button {
+  border: 0;
+  border-radius: 0.8rem;
+  background: var(--ink);
+  color: #fff;
+  font: 700 0.9rem/1 var(--font-sans);
+  padding: 0 1rem;
+}
+
+.foodList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 360px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.foodList li {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.foodList li:last-child {
+  border-bottom: 0;
+}
+
+.foodList strong {
+  color: var(--ink);
+  font-size: 0.94rem;
+}
+
+.foodList span {
+  display: block;
+  color: var(--ink-muted);
+  font-size: 0.82rem;
+  margin-top: 0.15rem;
+}
+
+@media (max-width: 900px) {
+  .metaGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .addForm {
+    grid-template-columns: 1fr;
+  }
+
+  .addForm button {
+    padding: 0.75rem;
+  }
+}

@@ -5,6 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "generate:food-data": "node scripts/generate-food-data.mjs",
+    "generate:food-keep-list": "node scripts/generate-food-keep-list.mjs",
+    "apply:food-keep-list": "node scripts/apply-food-keep-list.mjs",
+    "generate:overlay-template": "node scripts/generate-overlay-template.mjs",
+    "build:public-overrides": "node scripts/build-public-overrides.mjs",
+    "apply:approved-overrides": "node scripts/apply-approved-overrides.mjs",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

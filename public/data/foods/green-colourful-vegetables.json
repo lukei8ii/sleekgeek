@@ -1,0 +1,383 @@
+{
+  "list": "green",
+  "groupId": "colourful-vegetables",
+  "groupLabel": "Colourful Vegetables",
+  "sections": [
+    {
+      "title": "Red Vegetables",
+      "items": [
+        {
+          "id": "green-colourful-vegetables-onions",
+          "name": "Onions (red)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-peppers",
+          "name": "Peppers (red)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-radishes",
+          "name": "Radishes",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-tomatoes",
+          "name": "Tomatoes (red)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Yellow / Orange Vegetables",
+      "items": [
+        {
+          "id": "green-colourful-vegetables-carrots",
+          "name": "Carrots",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-corn",
+          "name": "Corn",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-peppers",
+          "name": "Peppers (yellow)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-tomatoes",
+          "name": "Tomatoes (yellow)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "White / Tan / Brown Vegetables",
+      "items": [
+        {
+          "id": "green-colourful-vegetables-cauliflower",
+          "name": "Cauliflower",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-mushrooms",
+          "name": "Mushrooms",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-onions",
+          "name": "Onions (white)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Purple Vegetables",
+      "items": [
+        {
+          "id": "green-colourful-vegetables-cabbage",
+          "name": "Cabbage (purple)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-carrots",
+          "name": "Carrots (purple)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-eggplant",
+          "name": "Eggplant",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Green Vegetables",
+      "items": [
+        {
+          "id": "green-colourful-vegetables-asparagus",
+          "name": "Asparagus",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-broccoli",
+          "name": "Broccoli",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-brussels-sprouts",
+          "name": "Brussels Sprouts",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-cabbage",
+          "name": "Cabbage",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-celery",
+          "name": "Celery",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-cucumber",
+          "name": "Cucumber",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-green-beans",
+          "name": "Green Beans",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-green-peas",
+          "name": "Green Peas",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-leafy-greens",
+          "name": "Leafy Greens",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-lettuce",
+          "name": "Lettuce",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-peppers",
+          "name": "Peppers (green)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-sugar-snap-peas",
+          "name": "Sugar Snap Peas",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-colourful-vegetables-zucchini",
+          "name": "Zucchini",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    }
+  ]
+}

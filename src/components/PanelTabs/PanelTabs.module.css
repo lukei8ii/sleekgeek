@@ -1,0 +1,37 @@
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.tab {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink-muted);
+  border-radius: 999px;
+  padding: 0.6rem 0.8rem;
+  font: 600 0.9rem/1 var(--font-sans);
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.tab:hover {
+  transform: translateY(-1px);
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+.tabActive {
+  color: #fff;
+  border-color: var(--ink);
+  background: var(--ink);
+}
+
+@media (max-width: 800px) {
+  .tabs {
+    grid-template-columns: 1fr 1fr;
+  }
+}

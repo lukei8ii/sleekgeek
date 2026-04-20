@@ -1,0 +1,25 @@
+{
+  "list": "orange",
+  "groupId": "fats",
+  "groupLabel": "Fats",
+  "sections": [
+    {
+      "title": "Other",
+      "items": [
+        {
+          "id": "orange-fats-dark-chocolate",
+          "name": "Dark Chocolate",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    }
+  ]
+}

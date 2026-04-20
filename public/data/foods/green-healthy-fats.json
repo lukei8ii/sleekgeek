@@ -1,0 +1,261 @@
+{
+  "list": "green",
+  "groupId": "healthy-fats",
+  "groupLabel": "Healthy Fats",
+  "sections": [
+    {
+      "title": "Oils (cold-pressed)",
+      "items": [
+        {
+          "id": "green-healthy-fats-avocado-oil",
+          "name": "Avocado Oil",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-olive-oil",
+          "name": "Olive Oil (extra virgin)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Nuts (raw, unflavoured, unsalted)",
+      "items": [
+        {
+          "id": "green-healthy-fats-almonds",
+          "name": "Almonds",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-brazil-nuts",
+          "name": "Brazil nuts",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-cashews",
+          "name": "Cashews",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-hazelnuts",
+          "name": "Hazelnuts",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-macadamias",
+          "name": "Macadamias",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-pecans",
+          "name": "Pecans",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-pine-nuts",
+          "name": "Pine Nuts",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-walnuts",
+          "name": "Walnuts",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Seeds (raw, unflavoured, unsalted)",
+      "items": [
+        {
+          "id": "green-healthy-fats-chia-seeds",
+          "name": "Chia seeds",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-flax-seeds",
+          "name": "Flax seeds",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-pumpkin-seeds",
+          "name": "Pumpkin seeds",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-sunflower-seeds",
+          "name": "Sunflower seeds",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "items": [
+        {
+          "id": "green-healthy-fats-avocado",
+          "name": "Avocado",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-nut-butters",
+          "name": "Nut Butters",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-olives",
+          "name": "Olives",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "green-healthy-fats-peanuts",
+          "name": "Peanuts",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    }
+  ]
+}

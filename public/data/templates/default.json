@@ -1,0 +1,65 @@
+[
+  {
+    "id": "balanced-plate",
+    "name": "Balanced Plate",
+    "groupTargets": [
+      "quality-protein",
+      "colourful-vegetables",
+      "smart-carbs",
+      "healthy-fats"
+    ]
+  },
+  {
+    "id": "protein-shake-plus",
+    "name": "Protein Shake",
+    "fallbackTemplateId": "balanced-plate",
+    "fixedPicks": [
+      {
+        "foodId": "orange-protein-protein-powders",
+        "group": "quality-protein",
+        "portionMultiplier": 1
+      },
+      {
+        "foodId": "green-smart-carbs-berries",
+        "group": "smart-carbs",
+        "portionMultiplier": 1
+      },
+      {
+        "foodId": "green-colourful-vegetables-leafy-greens",
+        "group": "colourful-vegetables",
+        "portionMultiplier": 1
+      },
+      {
+        "foodId": "green-healthy-fats-chia-seeds",
+        "group": "healthy-fats",
+        "portionMultiplier": 1
+      }
+    ]
+  },
+  {
+    "id": "deli-wrap-cheese",
+    "name": "Deli Wrap + Cheese",
+    "fixedPicks": [
+      {
+        "foodId": "orange-protein-minimally-processed-deli-meats",
+        "group": "quality-protein",
+        "portionMultiplier": 0.5
+      },
+      {
+        "foodId": "green-quality-protein-cheese",
+        "group": "quality-protein",
+        "portionMultiplier": 0.5
+      },
+      {
+        "foodId": "orange-carbs-whole-grain-wraps",
+        "group": "smart-carbs",
+        "portionMultiplier": 1
+      },
+      {
+        "foodId": "green-colourful-vegetables-leafy-greens",
+        "group": "colourful-vegetables",
+        "portionMultiplier": 1
+      }
+    ]
+  }
+]

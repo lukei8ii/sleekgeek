@@ -1,0 +1,62 @@
+{
+  "source": "https://www.sleekgeek.co.za/foodlist-google-sheets/",
+  "generatedAt": "2026-04-20T04:05:36.162Z",
+  "files": [
+    {
+      "file": "green-quality-protein.json",
+      "list": "green",
+      "groupId": "quality-protein",
+      "groupLabel": "Quality Protein",
+      "itemCount": 18
+    },
+    {
+      "file": "green-colourful-vegetables.json",
+      "list": "green",
+      "groupId": "colourful-vegetables",
+      "groupLabel": "Colourful Vegetables",
+      "itemCount": 27
+    },
+    {
+      "file": "green-smart-carbs.json",
+      "list": "green",
+      "groupId": "smart-carbs",
+      "groupLabel": "Smart Carbs",
+      "itemCount": 27
+    },
+    {
+      "file": "green-healthy-fats.json",
+      "list": "green",
+      "groupId": "healthy-fats",
+      "groupLabel": "Healthy Fats",
+      "itemCount": 18
+    },
+    {
+      "file": "orange-protein.json",
+      "list": "orange",
+      "groupId": "protein",
+      "groupLabel": "Protein",
+      "itemCount": 9
+    },
+    {
+      "file": "orange-vegetables.json",
+      "list": "orange",
+      "groupId": "vegetables",
+      "groupLabel": "Vegetables",
+      "itemCount": 4
+    },
+    {
+      "file": "orange-carbs.json",
+      "list": "orange",
+      "groupId": "carbs",
+      "groupLabel": "Carbs",
+      "itemCount": 7
+    },
+    {
+      "file": "orange-fats.json",
+      "list": "orange",
+      "groupId": "fats",
+      "groupLabel": "Fats",
+      "itemCount": 1
+    }
+  ]
+}

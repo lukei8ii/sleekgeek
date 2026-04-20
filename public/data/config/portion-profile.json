@@ -1,0 +1,175 @@
+{
+  "person": {
+    "sex": "male",
+    "age": 42,
+    "heightInches": 73,
+    "weightPounds": 240,
+    "bodyFatPercent": 26.5
+  },
+  "portionsPerMeal": 2,
+  "mealPortionMultipliers": {
+    "fats": {
+      "1": 0.5,
+      "3": 0.5
+    }
+  },
+  "categoryPortions": {
+    "protein": {
+      "label": "1 palm",
+      "ounces": 8,
+      "grams": 227
+    },
+    "vegetables": {
+      "label": "2 fists",
+      "ounces": 6,
+      "grams": 170
+    },
+    "carbs": {
+      "label": "1 cupped hand",
+      "ounces": 6,
+      "grams": 170
+    },
+    "fats": {
+      "label": "1 thumb",
+      "ounces": 1,
+      "grams": 28
+    }
+  },
+  "shoppingList": {
+    "produceDefaultUnit": "count",
+    "produceUnitOverrides": {
+      "green-colourful-vegetables-broccoli": "head",
+      "green-colourful-vegetables-cabbage": "head",
+      "green-colourful-vegetables-lettuce": "head",
+      "green-colourful-vegetables-cauliflower": "head",
+      "green-colourful-vegetables-celery": "stalks",
+      "green-smart-carbs-potatoes": "medium",
+      "green-smart-carbs-sweet-potatoes": "medium",
+      "orange-vegetables-potatoes": "medium",
+      "orange-vegetables-sweet-potatoes": "medium",
+      "green-smart-carbs-melons": "melon",
+      "green-smart-carbs-watermelon": "melon",
+      "green-smart-carbs-pineapple": "pineapple"
+    },
+    "weightBasedFoodIds": [
+      "green-colourful-vegetables-broccoli",
+      "green-colourful-vegetables-brussels-sprouts",
+      "green-colourful-vegetables-cabbage",
+      "green-colourful-vegetables-cauliflower",
+      "green-colourful-vegetables-corn",
+      "green-colourful-vegetables-green-beans",
+      "green-colourful-vegetables-green-peas",
+      "green-colourful-vegetables-leafy-greens",
+      "green-colourful-vegetables-mushrooms",
+      "green-colourful-vegetables-radishes",
+      "green-colourful-vegetables-sugar-snap-peas",
+      "green-smart-carbs-berries",
+      "green-smart-carbs-cherries",
+      "green-smart-carbs-grapes",
+      "green-smart-carbs-melons",
+      "green-smart-carbs-pineapple",
+      "green-smart-carbs-pumpkin",
+      "green-smart-carbs-watermelon",
+      "orange-vegetables-pumpkin"
+    ],
+    "unitlessCountFoodIds": ["orange-protein-protein-bars"],
+    "singleServingFoodIds": [
+      "orange-protein-protein-bars",
+      "orange-protein-protein-powders"
+    ],
+    "grocerySectionRules": {
+      "foodIdOverrides": {
+        "green-smart-carbs-pumpkin": "Pantry",
+        "orange-vegetables-pumpkin": "Pantry"
+      }
+    },
+    "quantityUnitOverrides": {
+      "green-quality-protein-eggs": "large eggs",
+      "green-quality-protein-oysters": "cans",
+      "orange-protein-protein-powders": "scoop"
+    },
+    "quantityUnitSizeOverrides": {
+      "green-colourful-vegetables-celery": {
+        "ouncesPerUnit": 1.4,
+        "gramsPerUnit": 40
+      },
+      "green-quality-protein-eggs": {
+        "ouncesPerUnit": 1.76,
+        "gramsPerUnit": 50
+      },
+      "green-quality-protein-oysters": {
+        "ouncesPerUnit": 3.75,
+        "gramsPerUnit": 106
+      }
+    },
+    "packageOptimization": {
+      "enabledForRawMeatProteins": true,
+      "rawMeatSectionKeywords": [
+        "meat",
+        "poultry",
+        "fish",
+        "seafood",
+        "shellfish"
+      ],
+      "excludeFoodIds": [
+        "green-quality-protein-eggs",
+        "orange-protein-protein-powders",
+        "orange-protein-protein-bars"
+      ]
+    }
+  },
+  "proteinConfig": {
+    "primarySectionKeywords": [
+      "meat",
+      "poultry",
+      "fish",
+      "seafood",
+      "shellfish",
+      "other"
+    ],
+    "supplementarySectionKeywords": ["dairy", "plant-based", "plant based"],
+    "supplementaryFoodIds": ["green-quality-protein-eggs"],
+    "alwaysPairFoodIds": [
+      "orange-protein-protein-powders",
+      "orange-protein-protein-bars"
+    ],
+    "supplementaryPickProbability": 0.35
+  },
+  "mealGeneration": {
+    "variablePickRules": {
+      "restrictFoodIdsByGroup": {
+        "protein": ["orange-protein-protein-powders"]
+      }
+    },
+    "fatRules": {
+      "oilFoods": {
+        "foodIds": [
+          "green-healthy-fats-avocado-oil",
+          "green-healthy-fats-olive-oil"
+        ],
+        "nameKeywords": ["oil"],
+        "sectionKeywords": ["oil"]
+      },
+      "allowOilWhen": {
+        "proteinSectionKeywords": [
+          "meat",
+          "poultry",
+          "fish",
+          "seafood",
+          "shellfish"
+        ],
+        "vegetableFoodIds": ["green-colourful-vegetables-leafy-greens"],
+        "vegetableSectionKeywords": ["leafy greens"]
+      },
+      "requireOneOilWhen": {
+        "proteinSectionKeywords": [
+          "meat",
+          "poultry",
+          "fish",
+          "seafood",
+          "shellfish"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "list": "orange",
+  "groupId": "protein",
+  "groupLabel": "Protein",
+  "sections": [
+    {
+      "title": "Meat",
+      "items": [
+        {
+          "id": "orange-protein-beef",
+          "name": "Beef (medium- to high-fat)",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-protein-minimally-processed-deli-meats",
+          "name": "Minimally Processed Deli Meats",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Poultry",
+      "items": [
+        {
+          "id": "orange-protein-chicken-sausage",
+          "name": "Chicken Sausage",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-protein-chicken-patties",
+          "name": "Chicken Patties",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-protein-chicken-deli-meat",
+          "name": "Chicken Deli Meat",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fish (Medium Mercury)",
+      "items": [
+        {
+          "id": "orange-protein-tuna",
+          "name": "Tuna (Skipjack, \"Light meat\")",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dairy",
+      "items": [
+        {
+          "id": "orange-protein-cheese",
+          "name": "Soft Cheese",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "items": [
+        {
+          "id": "orange-protein-protein-powders",
+          "name": "Protein Powders",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        },
+        {
+          "id": "orange-protein-protein-bars",
+          "name": "Protein Bars",
+          "defaultPortion": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "packageSize": null,
+          "source": {
+            "list": "sleekgeek-food-list",
+            "url": "https://www.sleekgeek.co.za/foodlist-google-sheets/"
+          }
+        }
+      ]
+    }
+  ]
+}
