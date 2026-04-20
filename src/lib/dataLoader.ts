@@ -9,6 +9,13 @@ import type {
   PortionProfile,
 } from "../types/models";
 
+function resolvePublicPath(path: string): string {
+  const baseUrl = import.meta.env.BASE_URL || "/";
+  const normalizedBase = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+  const normalizedPath = path.startsWith("/") ? path.slice(1) : path;
+  return `${normalizedBase}${normalizedPath}`;
+}
+
 function toCanonicalGroup(groupToken: GroupToken): CanonicalGroup {
   const normalized = groupToken.toLowerCase();
 
@@ -28,7 +35,7 @@ export async function loadOfficialData(): Promise<{
   templates: MealTemplate[];
   portionProfile: PortionProfile | null;
 }> {
-  const indexResponse = await fetch("/data/foods/index.json");
+  const indexResponse = await fetch(resolvePublicPath("data/foods/index.json"));
   if (!indexResponse.ok) {
     throw new Error("Failed to load food index");
   }
@@ -36,7 +43,9 @@ export async function loadOfficialData(): Promise<{
   const index = (await indexResponse.json()) as FoodIndexFile;
 
   const filePromises = index.files.map(async (fileMeta) => {
-    const response = await fetch(`/data/foods/${fileMeta.file}`);
+    const response = await fetch(
+      resolvePublicPath(`data/foods/${fileMeta.file}`),
+    );
     if (!response.ok) {
       throw new Error(`Failed to load ${fileMeta.file}`);
     }
@@ -50,7 +59,9 @@ export async function loadOfficialData(): Promise<{
   };
 
   // Overlay file is optional; this keeps the official source JSON immutable.
-  const overlayResponse = await fetch("/data/foods/overrides.json");
+  const overlayResponse = await fetch(
+    resolvePublicPath("data/foods/overrides.json"),
+  );
   if (overlayResponse.ok) {
     overlays = (await overlayResponse.json()) as FoodOverlayFile;
   }
@@ -95,7 +106,9 @@ export async function loadOfficialData(): Promise<{
     }
   }
 
-  const templatesResponse = await fetch("/data/templates/default.json");
+  const templatesResponse = await fetch(
+    resolvePublicPath("data/templates/default.json"),
+  );
   if (!templatesResponse.ok) {
     throw new Error("Failed to load default templates");
   }
@@ -114,7 +127,7 @@ export async function loadOfficialData(): Promise<{
 
   let portionProfile: PortionProfile | null = null;
   const portionProfileResponse = await fetch(
-    "/data/config/portion-profile.json",
+    resolvePublicPath("data/config/portion-profile.json"),
   );
   if (portionProfileResponse.ok) {
     portionProfile = (await portionProfileResponse.json()) as PortionProfile;
